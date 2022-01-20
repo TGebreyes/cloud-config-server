@@ -15,3 +15,5 @@ microservice:
     endpoints:
       endpoint:
         uri: http://ORDER-SERVICE/order/bookOrder
+hello:
+  go: http://PAYMENT-SERVICE/payment/doPayment 
